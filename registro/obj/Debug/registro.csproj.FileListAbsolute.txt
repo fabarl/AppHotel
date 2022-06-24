@@ -1,0 +1,5 @@
+D:\HotelBandeirantes\Software\C#\HotelBandeirante\registro\bin\Debug\registro.dll
+D:\HotelBandeirantes\Software\C#\HotelBandeirante\registro\bin\Debug\registro.pdb
+D:\HotelBandeirantes\Software\C#\HotelBandeirante\registro\obj\Debug\ResolveAssemblyReference.cache
+D:\HotelBandeirantes\Software\C#\HotelBandeirante\registro\obj\Debug\registro.dll
+D:\HotelBandeirantes\Software\C#\HotelBandeirante\registro\obj\Debug\registro.pdb

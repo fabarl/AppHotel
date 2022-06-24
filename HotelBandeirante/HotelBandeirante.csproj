@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8E356C9-42B8-468B-ADAB-F27A99418D07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotelBandeirante</RootNamespace>
+    <AssemblyName>HotelBandeirante</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>d:\HotelBandeirante Release\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <TargetCulture>pt-BR</TargetCulture>
+    <ProductName>Software HOtel</ProductName>
+    <PublisherName>HotelBandeirante</PublisherName>
+    <SuiteName>Hotel Bandeirante</SuiteName>
+    <ApplicationRevision>27</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F8579349AA227BD9A13AF3E9FF388A9D05598D57</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HotelBandeirante_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="classe_diaria">
+      <HintPath>.\classe_diaria.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cad_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cad_cliente.Designer.cs">
+      <DependentUpon>cad_cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fechar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fechar.Designer.cs">
+      <DependentUpon>fechar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frigobar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frigobar.Designer.cs">
+      <DependentUpon>frigobar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="historico_diaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historico_diaria.Designer.cs">
+      <DependentUpon>historico_diaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hospedar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hospedar.Designer.cs">
+      <DependentUpon>hospedar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="imprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imprimir.Designer.cs">
+      <DependentUpon>imprimir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="procurar_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="procurar_cliente.Designer.cs">
+      <DependentUpon>procurar_cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="produto.Designer.cs">
+      <DependentUpon>produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservas.Designer.cs">
+      <DependentUpon>reservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transferir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transferir.Designer.cs">
+      <DependentUpon>transferir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="up_ap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="up_ap.Designer.cs">
+      <DependentUpon>up_ap.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="cad_cliente.resx">
+      <DependentUpon>cad_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fechar.resx">
+      <DependentUpon>fechar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frigobar.resx">
+      <DependentUpon>frigobar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historico_diaria.resx">
+      <DependentUpon>historico_diaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hospedar.resx">
+      <DependentUpon>hospedar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imprimir.resx">
+      <DependentUpon>imprimir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="procurar_cliente.resx">
+      <DependentUpon>procurar_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produto.resx">
+      <DependentUpon>produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reservas.resx">
+      <DependentUpon>reservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transferir.resx">
+      <DependentUpon>transferir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="up_ap.resx">
+      <DependentUpon>up_ap.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="HotelBandeirante_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hospedar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frigobar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="procurar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

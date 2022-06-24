@@ -1,0 +1,37 @@
+ ============================================================
+                                             HOTEL BANDEIRANTE 
+           _________________________________________
+                  Av. 9 de Maio Centro de Juina - MT CEP 78320-00
+           Fone: (66)3566-1851 E-mail: reserva@hotelbandeirante.com.br
+                                  www.hotelbandeirante.com.br 
+
+       [Dados do Cliente]
+
+        Nome: Fabiano da Silva Oliveira
+        End.: Rua Alta Floresta
+        Telefone: (66)3566-1855
+        Empresa: Fabarl
+
+       ___________________________________________________
+        [Dados da Hospedagem]
+
+        Apartamento: 31
+        Check-IN: 19/10/2012 11:54
+        Check-OUT: 19/10/2012 11:54
+
+        Valor da Diaria: 50,00 R$       Diarias: 1
+
+        Valor Total de Diarias: 50 R$
+
+        Valor Frigobar: 0 R$
+
+        Desconto: 0%
+
+
+                          TOTAL: 50 R$
+
+                                                                                                                         
+                                                                                                                        
+                      Hotel Bandeirantes em Juina - MT ao Seu Dispor!                     
+                                                                                                                         
+                                                                                                                         
